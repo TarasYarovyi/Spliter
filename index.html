@@ -20,12 +20,12 @@
       </div>
       <div class="bottom">
         <label for="amount">Amount to pay:</label>
-        <input type="number" id="amount" />
+        <input type="number" id="amount" min="0" required />
         <label for="people">Number of people:</label>
-        <input type="number" id="people" />
+        <input type="number" id="people" min="0" required />
         <label for="additionalCosts">Additional costs</label>
         <select id="additionalCosts">
-          <option value="0" disabled selected>
+          <option value="" disabled selected>
             - select additional costs -
           </option>
           <option value="1">None</option>
